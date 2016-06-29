@@ -1,0 +1,128 @@
+.container {
+    width: 100%;
+    max-width: 950px;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+}
+
+.name {
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 0.25em;
+}
+
+.job-title {
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.class {
+    max-width: 100%;
+}
+
+.center {
+    text-align: center;
+}
+
+.header-divider {
+    height: 3px;
+    background-color: #7d97ad;
+}
+
+.social {
+    padding-top: 10px;
+}
+
+.app-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.app {
+    margin-top: 0;
+    text-align: left;
+}
+
+    .app img {
+    height: 200px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 400px) {
+    .name {
+        font-size: 20px;
+    }
+
+    .job-title, .featured, .app h3 {
+        font-size: 15px;
+    }
+
+    .app img {
+    height: auto;
+}
+
+}
+
+@media screen and (min-width: 851px) {
+    .mockup, .animal, .baseball {
+        width: 33%;
+    }
+
+    .app1, .app2, .app3 {
+        width: 33%;
+    }
+
+
+}
+
+@media screen and (max-width: 850px) {
+    .mockup, .animal {
+        width: 50%;
+    }
+
+    .app1, .app2, .app3, .app4 {
+        width: 50%;
+    }
+
+    .flex-container {
+        max-width: 950px;
+        margin: 0 auto;
+    }
+
+}
+
+@media screen and (max-width: 625px) {
+    .featured {
+        text-align: center;
+    }
+
+    .flex-app {
+        margin: 0 auto;
+        width: 100%;
+    }
+    .app1, .app2, .app3, .app4 {
+    width: 100%;
+}
+
+}
+
+
+
+
+.app1, .app2, .app3, .app4 {
+    width: 300px;
+    height: 300px;
+    border: 5px solid white;
+
+}
+
