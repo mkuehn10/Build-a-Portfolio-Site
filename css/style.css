@@ -2,8 +2,9 @@
     width: 100%;
     max-width: 950px;
     margin: 0 auto;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
 }
+
 
 .name {
     font-weight: 300;
@@ -11,46 +12,54 @@
     line-height: 0.25em;
 }
 
+
 .job-title {
     font-weight: 300;
     font-size: 15px;
 }
 
+
 .class {
     max-width: 100%;
 }
 
+
 .center {
     text-align: center;
 }
+
 
 .header-divider {
     height: 3px;
     background-color: #7d97ad;
 }
 
+
 .social {
     padding-top: 10px;
 }
+
 
 .app-wrapper {
     display: flex;
     flex-wrap: wrap;
 }
 
+
 .app {
     margin-top: 0;
     text-align: left;
 }
 
-    .app img {
+
+.app img {
     height: 200px;
 }
+
 
 a {
     text-decoration: none;
 }
-
 
 
 .flex-container {
@@ -58,86 +67,116 @@ a {
     flex-wrap: wrap;
 }
 
+
 @media screen and (max-width: 415px) {
     .name {
         font-size: 22px;
     }
 
-    .job-title,  {
+
+    .job-title  {
         font-size: 14px;
     }
 
-    .featured, .flex-app h3 {
+
+    .featured,
+    .flex-app h3 {
         font-size: 22px;
     }
 
+
     .app img {
     height: auto;
+    }
 }
 
-}
 
 @media screen and (min-width: 851px) {
-    .mockup, .animal, .baseball {
+    .mockup,
+    .animal,
+    .baseball {
         width: 33%;
     }
 
-    .app1, .app2, .app3 {
+
+    .app1,
+    .app2,
+    .app3 {
         width: 33%;
     }
-
-
 }
 
+
 @media screen and (max-width: 850px) {
-    .mockup, .animal {
+    .mockup,
+    .animal {
         width: 50%;
     }
 
-    .app1, .app2, .app3, .app4 {
+
+    .app1,
+    .app2,
+    .app3,
+    .app4 {
         width: 50%;
     }
+
 
     .flex-container {
         max-width: 950px;
         margin: 0 auto;
     }
-
 }
-/*625*/
+
+
 @media screen and (max-width: 625px) {
     .featured {
         text-align: center;
     }
 
+
     .flex-app {
         margin: 0 auto;
         width: 100%;
     }
-    .app1, .app2, .app3, .app4 {
+
+
+    .flex-app img {
+        height: auto;
+        width: 100%;
+    }
+
+
+    .app1,
+    .app2,
+    .app3,
+    .app4 {
     width: 100%;
+    }
 }
 
-}
 
-
-.app1, .app2, .app3, .app4 {
+.app1,
+.app2,
+.app3,
+.app4 {
     width: 300px;
     height: 325px;
     border: 1px solid white;
-
 }
 
-/* Opacity #1 */
+
  .flex-app img {
-    opacity: .5;
-    -webkit-transition: .3s ease-in-out;
+    opacity: .7;
     transition: .3s ease-in-out;
     height: 200px;
 }
+
+
 .flex-app img:hover {
     opacity: 1;
 }
+
 
 .flex-app .info {
     visibility: hidden;
@@ -147,24 +186,8 @@ a {
     background-color: #000000;
     color: #FFFFFF;
     font-size: 22px;
-
 }
 
-.hero {
-        background-color:white;
-background-image:
-radial-gradient(midnightblue 9px, transparent 10px),
-repeating-radial-gradient(midnightblue 0, midnightblue 4px, transparent 5px, transparent 20px, midnightblue 21px, midnightblue 25px, transparent 26px, transparent 50px);
-background-size: 30px 30px, 90px 90px;
-background-position: 0 0;
-        height: 400px;
-        width: 950px;
-        max-height: 100vh;
-        max-width: 100vw;
-
-}
-
-/*Background pattern from http://lea.verou.me/css3patterns/#marrakesh*/
 
 .logo, .name-div {
     padding: 0;
