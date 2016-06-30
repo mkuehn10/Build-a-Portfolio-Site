@@ -1,0 +1,79 @@
+.container {
+    width: 100%;
+    max-width: 950px;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+}
+
+.name {
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 0.25em;
+}
+
+.job-title {
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.class {
+    max-width: 100%;
+}
+
+.center {
+    text-align: center;
+}
+
+.header-divider {
+    height: 3px;
+    background-color: #7d97ad;
+}
+
+.social {
+    padding-top: 10px;
+}
+
+/*.app-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}*/
+
+.app {
+    margin-top: 0;
+    text-align: left;
+}
+
+    .app img {
+    height: 200px;
+}
+
+a {
+    text-decoration: none;
+}
+@media screen and (max-width: 400px) {
+    .name {
+        font-size: 20px;
+    }
+
+    .job-title, .featured {
+        font-size: 15px;
+    }
+
+    .app img {
+    height: auto;
+}
+
+}
+
+@media screen and (min-width: 991px) {
+    .mockup, .animal, .baseball {
+        width: 33%;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .mockup, .animal {
+        width: 50%;
+    }
+
+}
