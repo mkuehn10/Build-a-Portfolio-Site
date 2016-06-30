@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="http://zocial.smcllns.com/css/zocial.css"/>
         <link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,700' rel='stylesheet'>
-        <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
     </head>
 
@@ -18,18 +18,23 @@
         <div class="container">
 
             <header class="row">
-                <div class="col-md-2"><img src="images/logo.jpg" height="80" width="80"></div>
-                <div class="col-md-4 center social">
+                <div class="col-xs-2 logo">
+                    <img src="images/logo.jpg" class="img-responsive">
+                </div>
+                <!-- <div class="col-md-4 center social">
                     <a class="zocial github icon" href="https://github.com/mkuehn10?tab=repositories" target="github"></a>
                     <a class="zocial linkedin icon" href="https://www.linkedin.com/in/michaelakuehn" target="linkedin"></a>
                     <a class="zocial gmail icon" href="mailto:mkuehn10@gmail.com"></a>
-                </div>
-                <div class="col-md-6 text-right text-uppercase">
+                </div> -->
+                <div class="col-xs-10 text-right text-uppercase name-div">
                 <!-- <header style="position: relative;" class="row">
                 <div style="position: absolute; bottom: 0;" class="col-md-6"><img src="images/logo.jpg" height="80" width="80"></div>
                 <div style="float: right;" class="col-md-6 text-right text-uppercase">-->
                     <h1 class="name">Michael Kuehn</h1>
                     <h3 class="job-title">Front-End Developer</h3>
+                    <a class="zocial github icon" href="https://github.com/mkuehn10?tab=repositories" target="github"></a>
+                    <a class="zocial linkedin icon" href="https://www.linkedin.com/in/michaelakuehn" target="linkedin"></a>
+                    <a class="zocial gmail icon" href="mailto:mkuehn10@gmail.com"></a>
                 </div>
             </header>
 
@@ -40,8 +45,8 @@
             </div>
 
             <div class="row">
-                <div class="col-md-12">
-                    <img src="http://placehold.it/950x400" class="img-responsive hero">
+                <div class="col-md-12 hero">
+                    <!-- <img src="images/bricks.jpg" class="img-responsive"> -->
                 </div>
             </div>
 
@@ -78,26 +83,27 @@
 
         <div class="flex-container">
             <div class="flex-app app1">
-                    <img src="images/mockup_to_article_small.jpg" data-toggle="modal" data-target="#project1" class="img-responsive">
-                    <h3>Mockup to Article</h3>
-                    <p><a href="https://github.com/mkuehn10/Mockup-to-Article">https://github.com/mkuehn10/Mockup-to-Article</a></p>
+                    <img src="images/mockup_to_article_small.jpg" data-toggle="modal" data-target="#project1" class="img-responsive hover">
+                    <h3 class="app-title">Mockup to Article</h3>
+                    <p><a href="https://github.com/mkuehn10/Mockup-to-Article" target="mockup">https://github.com/mkuehn10/Mockup-to-Article</a></p>
             </div>
             <div class="flex-app app2">
                 <img src="images/animal_trading_cards_small.jpg" class="img-responsive">
                     <h3>Animal Trading Cards</h3>
-                    <p><a href="https://github.com/mkuehn10/Animal-Trading-Cards">https://github.com/mkuehn10/Animal-Trading-Cards</a></p>
+                    <p><a href="https://github.com/mkuehn10/Animal-Trading-Cards" target="animal">https://github.com/mkuehn10/Animal-Trading-Cards</a></p>
             </div>
             <div class="flex-app app3">
-                <img src="http://placehold.it/300x200" class="img-responsive">
+                <img src="images/baseball_visualization_small.jpg" class="img-responsive">
                     <h3>Baseball Data Visualization</h3>
                     <p>
                         <a href="https://github.com/mkuehn10/P6-Make-Effective-Data-Visualization">https://github.com/mkuehn10/P6-Make-Effective-Data-Visualization</a>
                     </p>
             </div>
             <div class="flex-app app4">
-                <img src="http://placehold.it/300x200" data-toggle="modal" data-target="#project1" class="img-responsive">
+                <img src="images/enron_small.jpg" data-toggle="modal" data-target="#project1" class="img-responsive">
                     <h3>Identify Enron Fraud</h3>
                     <p><a href="https://github.com/mkuehn10/P5-Identify-Fraud-from-Enron">https://github.com/mkuehn10/P5-Identify-Fraud-from-Enron</a></p>
+                    <!-- Image from http://media.economist.com/sites/default/files/cf_images/GA/2006w21/Enron.jpg -->
             </div>
         </div>
 
